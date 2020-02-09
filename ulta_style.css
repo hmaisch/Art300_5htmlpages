@@ -5,21 +5,21 @@ body{
 }
 
 .header-top{
-    position: fixed;
+    position: absolute;
     height: 5vw;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 10px;
+    margin-left: 50px;
     display: grid;
-    grid-template-columns: 80px 160px 200px 100px 150px 75px 60px 75px;
+    grid-template-columns: 160px 180px 0px 40px 70px 75px 60px 75px;
     grid-template-rows: 1fr;
     grid-gap: 100px;
 }
 .header-item{
-    background-color: white;
+    background-color: teal;
 }
 
 .featured-post{
-    position: absolute;
+    position: fixed;
     background-color: white;
     margin-top: 30px;
     height: 30vw;
@@ -34,4 +34,35 @@ body{
     height: 31vw;
     width: 10vw;
     z-index: 100;
+}
+
+.highlighted-posts{
+    position: absolute;
+    height: 10vw;
+    margin-top: 505px;
+    margin-right: 50%;
+    margin-bottom: 100%;
+    margin-left: 50%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+.post{
+    background-color: teal;
+}
+
+.row-header{
+    position: absolute;
+    background-color: white;
+    margin-top: 750px;
+    margin-right: 50%;
+    margin-bottom: 100%;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 30px;
+    grid-template-rows: 30px;
+
 }
