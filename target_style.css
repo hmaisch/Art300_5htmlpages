@@ -5,12 +5,14 @@ body{
 }
 
 .header{
-    height: 10vw;
+    width: auto;
+    position: relative;
     color: plum;
 }
 
 .featured-post{
     margin: auto;
-    color: plum;
-    
+    padding: 10px;
+    height: 500px;
+    color: grey;
 }
