@@ -4,7 +4,8 @@ body{
     padding: 0;
 }
 
-.header-top{
-    background-color: red;
-    height: 20vh;
+.header{
+    height: 10vw;
+    
 }
+
