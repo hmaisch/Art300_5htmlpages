@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 
-.header{
+.header-top{
     background-color: red;
-    margin-top: 20px;
+    height: 20vh;
 }
