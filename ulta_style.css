@@ -15,7 +15,7 @@ body{
     grid-gap: 100px;
 }
 .header-item{
-    background-color: teal;
+    background-color: plum;
 }
 
 .featured-post{
@@ -38,20 +38,21 @@ body{
 
 .highlighted-posts{
     position: absolute;
-    height: 10vw;
-    margin-top: 505px;
-    margin-right: 50%;
-    margin-bottom: 100%;
-    margin-left: 50%;
-    background-color: red;
+    margin-top: 550px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: teal;
     display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 100px 200px;
     grid-gap: 10px;
 }
 
 .post{
     background-color: teal;
+    height: 100px;
+    padding: 10px;
+    grid-gap: 10px;
 }
 
 .row-header{
