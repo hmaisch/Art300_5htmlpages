@@ -1,11 +1,16 @@
 body{
-    background-color: plum;
+    background-color: red;
     margin: 0;
     padding: 0;
 }
 
 .header{
     height: 10vw;
-    
+    color: plum;
 }
 
+.featured-post{
+    margin: auto;
+    color: plum;
+
+}
