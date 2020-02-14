@@ -7,6 +7,7 @@ body{
 .header{
     width: 100vw;
     height: 50px;
+    background-color: cornflowerblue;
 
     display: grid;
     grid-template-columns: 200px 200px;
@@ -22,6 +23,7 @@ body{
 
 .featured-post-one{
     position: absolute;
+    margin-bottom: 50px;
     background-color: white;
     height: 30vw;
     width: 100vw;
@@ -44,7 +46,7 @@ body{
     margin-right: 200px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .5fr .5fr;
     grid-template-rows: 50px 100px;
     grid-gap: 10px;
 }
@@ -59,18 +61,172 @@ body{
     width: 150px;
     height: 15px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .row-of-items-one{
-    padding: 50px;
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 100px;
-    grid-gap: 20px;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-template-rows: .5fr;
+    grid-gap: 40px;
 }
 
 .item-one{
     background-color: turquoise;
+    padding: 100px;
 }
 
+.row-header-two{
+    background-color: pink;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row-of-items-two{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-template-rows: .5fr;
+    grid-gap: 40px;
+}
+
+.item-two{
+    background-color: turquoise;
+    padding: 100px;
+}
+
+.row-header-three{
+    background-color: pink;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row-of-items-three{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    grid-template-rows: .5fr;
+    grid-gap: 40px;
+}
+
+.item-three{
+    background-color: turquoise;
+    padding: 100px;
+}
+
+.row-header-four{
+    background-color: pink;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row-of-featured-posts{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: 1fr;
+    grid-gap: 70px;
+}
+
+.featured-post-two{
+    background-color: lavender;
+    padding: 200px;
+}
+
+.row-header-five{
+    background-color: pink;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row-of-profile-links{
+    margin: 30px;
+    margin-left: 600px;
+    margin-right: 550px;
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    grid-template-rows: 40px;
+    grid-gap: 35px;
+}
+
+.profile-item{
+    background-color: lavender;
+    padding: 20px;
+}
+
+.row-header-six{
+    background-color: pink;
+    width: 300px;
+    height: 15px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.row-of-posts{
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    grid-gap: 20px;
+}
+
+.post{
+    background: coral;
+    padding: 90px;
+}
+
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.row-of-footer-items{
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 500px;
+    margin-bottom: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25px;
+    grid-gap: 10px;
+}
+
+.footer-item{
+    background-color: lavender;
+    padding: 60px;
+    margin: 40px;
+    margin-bottom: 30px;
+}
