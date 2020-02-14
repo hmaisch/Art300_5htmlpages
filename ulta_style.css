@@ -9,57 +9,68 @@ body{
     height: 50px;
 
     display: grid;
-    grid-template-columns: 100px 200px;
+    grid-template-columns: 200px 200px;
     grid-template-rows: 30px;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .header-item{
     background-color: plum;
     height: 30px;
     margin: 10px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
-.featured-post{
+.featured-post-one{
+    position: absolute;
     background-color: white;
     height: 30vw;
     width: 100vw;
 }
 
 .sidebar-menu{
+    position: absolute;
     background-color: plum;
     margin-top: 0;
+    margin-bottom: 10px;
     margin-left: 25px;
     height: 31vw;
-    width: 10vw;
+    width: 15vw;
     z-index: 100;
 }
 
 .highlighted-posts{
-    margin-top: 550px;
+    margin-top: 500px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: teal;
+
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 100px 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 100px;
     grid-gap: 10px;
 }
 
-.post{
-    background-color: teal;
-    height: 100px;
+.highlighted-post{
+    background-color: yellowgreen;
     padding: 10px;
-    grid-gap: 10px;
 }
 
-.row-header{
-    background-color: white;
-    margin-top: 750px;
-    margin-right: 50%;
-    margin-bottom: 100%;
-    margin-left: 50%;
-    display: grid;
-    grid-template-columns: 30px;
-    grid-template-rows: 30px;
+.row-header-one{
+    background-color: pink;
+    width: 150px;
+    height: 15px;
+    margin: auto;
+    margin-top: 30px;
 }
+
+.row-of-items-one{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+    grid-gap: 20px;
+}
+
+.item-one{
+    background-color: turquoise;
+}
+
