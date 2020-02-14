@@ -1,0 +1,88 @@
+body{
+    background-color: plum;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 40px;
+    width: 100vw;
+    background-color: blue;
+    top: 0;
+}
+
+.row-of-links-one{
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 10px;
+}
+
+.link-one{
+    background-color: purple;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.highlighted-posts{
+    background-color: yellow;
+}
+
+.featured-post{
+    background-color: orange;
+    height: 280px;
+    width: 100vw;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-left: 40px;
+
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 30px 40px 40px 50px 30px;
+    grid-gap: 5px;
+}
+
+.featured-post-item{
+    background-color: green;
+}
+
+.highlighted-post{
+    background-color: coral;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    display: grid;
+    grid-template-rows: 225px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 2px;
+}
+
+.highlighted-post-content{
+    background-color: darkcyan;
+}
+
+.post{
+    margin: auto;
+
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 1px;
+}
+
+.post-content{
+    background-color: yellow;
+    height: 125px;
+    width: 200px;
+    margin: 30px;
+}
+
+.row-header{
+    height: 10px;
+    width: 10vw;
+    background-color: cornflowerblue;
+    margin-left: 30px;
+}

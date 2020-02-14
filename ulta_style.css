@@ -4,32 +4,31 @@ body{
     padding: 0;
 }
 
-.header-top{
-    position: absolute;
-    height: 5vw;
-    margin-right: 10px;
-    margin-left: 50px;
+.header{
+    width: 100vw;
+    height: 50px;
+
     display: grid;
-    grid-template-columns: 160px 180px 0px 40px 70px 75px 60px 75px;
-    grid-template-rows: 1fr;
-    grid-gap: 100px;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 30px;
+    grid-gap: 20px;
 }
 .header-item{
     background-color: plum;
+    height: 30px;
+    margin: 10px;
+    margin-left: 30px;
 }
 
 .featured-post{
-    position: fixed;
     background-color: white;
-    margin-top: 30px;
     height: 30vw;
     width: 100vw;
 }
 
 .sidebar-menu{
-    position: absolute;
     background-color: plum;
-    margin-top: 30px;
+    margin-top: 0;
     margin-left: 25px;
     height: 31vw;
     width: 10vw;
@@ -37,7 +36,6 @@ body{
 }
 
 .highlighted-posts{
-    position: absolute;
     margin-top: 550px;
     margin-left: 200px;
     margin-right: 200px;
@@ -56,7 +54,6 @@ body{
 }
 
 .row-header{
-    position: absolute;
     background-color: white;
     margin-top: 750px;
     margin-right: 50%;
